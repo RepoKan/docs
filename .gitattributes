@@ -5,3 +5,7 @@
 *.md text eol=lf diff=markdown
 *.json.br filter=lfs diff=lfs merge=lfs -text
 .github/workflows/*.lock.yml linguist-generated=true merge=ours
+dist/** linguist-generated
+build/** linguist-generated
+coverage/** linguist-generated
+search/index.json linguist-generated
